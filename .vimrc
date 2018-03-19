@@ -20,6 +20,8 @@ Plugin 'gmarik/Vundle.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set backspace=indent,eol,start
+
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
